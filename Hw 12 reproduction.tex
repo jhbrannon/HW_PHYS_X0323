@@ -1,0 +1,85 @@
+\documentclass[12pt]{article}
+\usepackage{epsfig}
+\usepackage{times}
+\renewcommand{\topfraction}{1.0}
+\renewcommand{\bottomfraction}{1.0}
+\renewcommand{\textfraction}{0.0}
+\setlength {\textwidth}{6.6in}
+\hoffset=-1.0in
+\oddsidemargin=1.00in
+\marginparsep=0.0in
+\marginparwidth=0.0in                                                                               
+\setlength {\textheight}{9.0in}
+\voffset=-1.00in
+\topmargin=1.0in
+\headheight=0.0in
+\headsep=0.00in
+\footskip=0.50in                                         
+\setcounter{page}{1}
+\begin{document}
+\def\pos{\medskip\quad}
+\def\subpos{\smallskip \qquad}
+\newfont{\nice}{cmr12 scaled 1250}
+\newfont{\name}{cmr12 scaled 1080}
+\newfont{\swell}{cmbx12 scaled 800}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+{\large\bf
+PHYS 20323/60323: Fall 2020 - LaTeX Example}\\
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent1.  Consider a particle confined in a two-dimensional infinite square well        %       
+\[                     
+{V}(x,y) = \left\{
+			\begin{array}{ll}
+                  		\textnormal{0,} & \textnormal{if} \ 0 \le {x}\le {a} \ , \  0 < y < a\\
+                 		\infty, & \textnormal{otherwise}
+                \end{array}             
+    \right.
+\]
+\\
+\indent The eigenfunctions have the form:\\
+\[
+\Psi \textnormal{(x,y)} = \frac{2}{a}sin(\frac{n\pi x}{a})sin(\frac{m\pi y}{a})\\
+\]
+\indent with the corresponding energies being given by:\\
+\[
+E_{mn} = (n^{2} + m^{2})\frac{\pi ^{2} \hbar ^{2}}{2ma^{2}}
+\]
+\\
+\indent \ \ (a) (5 points) What are the levels of degeneracy of the five lowest energy values?     \   %                              
+\\    
+\indent \ \ (b) (5 points) Consider a  perturbation given by:     \\
+\[
+\hat{H}^\prime = a^{2}V_{0}\delta(x-\frac{a}{2})\delta(y-\frac{a}{2})
+\]                   
+\indent \ \ \ Calculate the first order correction to the ground state energy.
+\\
+\\
+{\noindent\bf 2. The following questions refer to stars in the Table below:\\}  
+ \indent Note: There may be multiple answers\\
+\indent\begin{tabular}{|c|c|c|c|c|c|}\hline
+Name & Mass            & Luminosity         & Lifetime                  & Temperature & Radius \\\hline
+Zeta   & $60. \ M_{sun}$ & $10^{6} \ L_{sun}$ & $8.0 \times 10^{5} \ years$ &  \            & \  \\\hline
+Epsilon & $6.0 \ M_{sun}$ & $10^{3}\ L_{sun}$ & \ & 20,000 K & \ \\\hline
+Delta & $2.0 \ M_{sun}$& \ & $5.0 \times 10^{8} \ years$ & \ & $2 \ R_{sun}$ \\\hline
+Beta &$1.3 \ M_{sun}$&$3.5 \ L_{sun}$& \ & \ & \ \\\hline
+Alpha&$1.0\  M_{sun}$& \ & \ & \ & $1\ R_{sun}$ \\\hline
+Gamma&$0.7 \ M_{sun}$& \ & $4.5 \times 10^{10} \ years$ & 5000 K & \ \\\hline
+\end{tabular}
+\\
+\\
+\\
+\indent \ \ (a) (4 points) Which of these stars will produce a planetary nebula at the end of their life        
+                       \\
+\\
+\\
+\\
+\indent \ \ (b) (4 points)  Elements heavier than \emph{Carbon} will be produced in which stars.        %                       
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
